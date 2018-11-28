@@ -127,7 +127,7 @@
 
                     <li><a class="menu" href="<?php echo base_url('Kost_p/index'); ?>" class="btn btn-info btn-xs">Kost</a></li>
 
-                    <li><a class="menu" href="<?php echo base_url('Kost_p/pemesanan'); ?>" class="btn btn-info btn-xs">Pemesanan</a></li>
+                    <li><a class="menu" href="<?php echo base_url('DataBooking/pemesanan'); ?>" class="btn btn-info btn-xs">Pemesanan</a></li>
 
                     <li><a href="<?php echo base_url('Login/logout'); ?>" class="btn btn-info btn-xs">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
                 </ul>

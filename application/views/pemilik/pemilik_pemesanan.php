@@ -15,3 +15,30 @@
   		</div>
   	</div>
   </div>
+
+  <main role="main" class="container">
+<table class="table" back>
+  <thead class="thead-dark">
+    <tr>
+      <th>Nomor Booking</th>
+      <th>Nomor User</th>
+      <th>Nomor Kost</th>
+      <th>Tanggal Booking</th>
+      <th>Harga</th>
+    </tr>
+  </thead>
+  <tbody style="background-color: white">
+    <?php foreach ($b_list as $key): ?>
+    <tr>
+          <th><?php echo $key -> $id_booking?></th>
+          <th><?php echo $key -> $fk_id_user?></th>
+          <th><?php echo $key -> $fk_id_kost?></th>
+          <th><?php echo $key -> $tgl_booking?></th>
+          <th><?php echo $key -> $harga?></th>
+          
+    </tr>
+    <?php endforeach ?>
+  </tbody>
+
+</table>
+</main>

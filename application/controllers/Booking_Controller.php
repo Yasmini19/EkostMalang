@@ -7,6 +7,7 @@ class Booking_Controller extends CI_Controller{
 		$this->load->model('Model_Booking');
 		$this->load->model('Kost_p_model');
 	}
+	
 	public function index() 
 	{
 		// Dapatkan semua kategori
@@ -20,9 +21,9 @@ class Booking_Controller extends CI_Controller{
 		$this->load->library('form_validation');
 		// Form validasi untuk Nama Kategori
 		$this->form_validation->set_rules('fk_id_user', 'Id User', 'trim|required');
-			$this->form_validation->set_rules('fk_id_kost', 'Id Kost ', 'trim|required');
-			$this->form_validation->set_rules('tgl_booking', 'Tgl Booking', 'trim|required');
-			$this->form_validation->set_rules('harga', 'Harga', 'trim|required');
+		$this->form_validation->set_rules('fk_id_kost', 'Id Kost ', 'trim|required');
+		$this->form_validation->set_rules('tgl_booking', 'Tgl Booking', 'trim|required');
+		$this->form_validation->set_rules('harga', 'Harga', 'trim|required');
 		if($this->form_validation->run() === FALSE){
 			redirect('DashboardPenyewa/booking');
 		} else {

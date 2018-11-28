@@ -144,23 +144,27 @@
               <table id="table_id" class="table table-striped table-bordered">
                 <thead class="thead-dark">
                   <tr>
-                    <th>ID</th>
                     <th>Nama</th>
-                    <th>Alamat</th>
                     <th>Email</th>
+                    <th>KTP</th>
+                    <th>Alamat</th>
+                    <th>Jenis Kelamin</th>
                     <th>No HP</th>
-                    <th>Username</th>
+                    <th>Kampus</th>
+                    <th>Photo</th> 
                   </tr>
                 </thead>
                 <tbody>
-                  <?php foreach ($penyewaRt_list as $key) : ?>
+                  <?php foreach ($p_list as $key) : ?>
                   <tr>
-                    <td><?php echo $key->id_user ?></td>
                     <td><?php echo $key->nama ?></td>
+                    <td><?php echo $key->email?></td>
+                    <td><?php echo $key->ktp?></td>
                     <td><?php echo $key->alamat ?></td>
-                    <td><?php echo $key->email ?></td>
-                    <td><?php echo $key->no_tlp ?></td>
-                    <td><?php echo $key->username ?></td>
+                    <td><?php echo $key->jenis_kelamin ?></td>
+                    <td><?php echo $key->no_hp ?></td>
+                    <td><?php echo $key->kampus ?></td>
+                    <td><?php echo $key->photo?></td>
                   </tr>
                   <?php endforeach; ?>
                 </tbody>

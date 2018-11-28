@@ -11,5 +11,12 @@ class DataBooking extends CI_Controller {
 		$this->load->view('admin/dataBooking', $data);
 	}
 
+	public function pemesanan(){
+        	$this->load->helper('url', 'form');
+        	$this->load->model('DataBooking_model');
+        	$data['b_list'] = $this->DataBooking_model->getAllBooking();
+			$this->load->view('pemilik/pemilik_pemesanan');
+		}
+
 }
 ?>

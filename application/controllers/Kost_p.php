@@ -12,6 +12,7 @@
             $this->load->view('pemilik/kost_p.php', $data);
         }
 
+
         public function create()
 		{
 
@@ -103,12 +104,7 @@
 		$this->Kost_p_model->delete($id_kost);
 		redirect('pemilik/kost_p');
 	}
-
-	public function pemesanan(){
-		$this->load->view('pemilik/pemilik_pemesanan');
-		
-	}
- 	}
+}
 
  	
  ?>
