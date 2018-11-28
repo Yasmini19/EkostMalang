@@ -121,7 +121,9 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="menu"><a href="<?php echo base_url('c_user'); ?>">Home</a></li>
+                    <li class="menu"><a href="<?php echo base_url('DashboardPenyewa'); ?>">Booking</a></li>
+
+                    <li class="menu"><a href="<?php echo base_url('Profil_penyewa'); ?>">Profil</a></li>
 
                    
 

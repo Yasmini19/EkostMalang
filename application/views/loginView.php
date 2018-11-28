@@ -91,7 +91,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <div class="form-sub-w3ls">
                            <select class="form-control" id="level" name="level" required="">
                              <option selected="">Pilih Jenis Pendaftaran</option>
-                             <option value="admin">Admin</option>
                              <option value="pemilik">Pemilik Kost</option>
                              <option value="penyewa">Penyewa</option>
                              <option value="rt">Ketua RT</option>
