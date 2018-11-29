@@ -81,7 +81,7 @@
          <li><a class="app-menu__item " href="<?php echo base_url('index.php/RT/')?>"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
         
         
-        <li class="treeview"><a class="app-menu__item" href="<?php echo base_url('index.php/RT/DataPenyewa')?>" data-toggle="treeview"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Data Penyewa</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+        <li class="treeview"><a class="app-menu__item" href="<?php echo base_url('index.php/DataPenyewa_Rt')?>" data-toggle="treeview"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Data Penyewa</span><i class="treeview-indicator fa fa-angle-right"></i></a>
           
         </li>
         
@@ -146,25 +146,19 @@
                   <tr>
                     <th>Nama</th>
                     <th>Email</th>
-                    <th>KTP</th>
                     <th>Alamat</th>
-                    <th>Jenis Kelamin</th>
-                    <th>No HP</th>
-                    <th>Kampus</th>
-                    <th>Photo</th> 
+                    <th>No Telephone</th>
+                    <th>Username</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <?php foreach ($p_list as $key) : ?>
+                  <?php foreach ($penyewaRt_list as $key) : ?>
                   <tr>
                     <td><?php echo $key->nama ?></td>
                     <td><?php echo $key->email?></td>
-                    <td><?php echo $key->ktp?></td>
                     <td><?php echo $key->alamat ?></td>
-                    <td><?php echo $key->jenis_kelamin ?></td>
-                    <td><?php echo $key->no_hp ?></td>
-                    <td><?php echo $key->kampus ?></td>
-                    <td><?php echo $key->photo?></td>
+                    <td><?php echo $key->no_tlp ?></td>
+                    <td><?php echo $key->username ?></td>
                   </tr>
                   <?php endforeach; ?>
                 </tbody>

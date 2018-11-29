@@ -28,13 +28,13 @@
     </tr>
   </thead>
   <tbody style="background-color: white">
-    <?php foreach ($b_list as $key): ?>
+    <?php foreach ($booking_list as $key): ?>
     <tr>
-          <th><?php echo $key -> $id_booking?></th>
-          <th><?php echo $key -> $fk_id_user?></th>
-          <th><?php echo $key -> $fk_id_kost?></th>
-          <th><?php echo $key -> $tgl_booking?></th>
-          <th><?php echo $key -> $harga?></th>
+          <th><?php echo $key->id_booking?></th>
+          <th><?php echo $key->fk_id_user?></th>
+          <th><?php echo $key->fk_id_kost?></th>
+          <th><?php echo $key->tgl_booking?></th>
+          <th><?php echo $key->harga?></th>
           
     </tr>
     <?php endforeach ?>

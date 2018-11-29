@@ -6,11 +6,11 @@
 <br>
 <!--<div id="map" style="width:100%; height:500px"></div>-->
 <div class="container">
-  
-  <!-- /search -->
-  <div class="row">
-    <div class="col-md-12">
-    <?php foreach ($kost as $key) :
+	
+	<!-- /search -->
+	<div class="row">
+		<div class="col-md-12">
+		<?php foreach ($kost as $key) :
       ?>
         <br>
         <div class="row">
@@ -30,8 +30,8 @@
             </div>
           </div> 
           <?php endforeach;?>
-    </div>
-  </div>
+		</div>
+	</div>
 </div>
 <br>
 <br>
