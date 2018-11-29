@@ -152,7 +152,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <?php foreach ($penyewaRt_list as $key) : ?>
+                  <?php foreach ($p_list as $key) : ?>
                   <tr>
                     <td><?php echo $key->nama ?></td>
                     <td><?php echo $key->email?></td>

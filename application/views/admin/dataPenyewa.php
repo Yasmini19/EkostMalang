@@ -78,12 +78,12 @@
         </div>
       </div>
       <ul class="app-menu">
-        <li><a class="app-menu__item active" href="<?php echo base_url('index.php/HomeAdmin/')?>"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
+        <li><a class="treeview" href="<?php echo base_url('index.php/HomeAdmin/')?>"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
         
           
         </li>
 
-        <li class="treeview"><a class="app-menu__item" href="<?php echo site_url('index.php/DataPenyewa/')?>" data-toggle="treeview"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Data Penyewa</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+        <li class="app-menu__item active"><a class="app-menu__item" href="<?php echo site_url('index.php/DataPenyewa/')?>" data-toggle="treeview"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Data Penyewa</span><i class="treeview-indicator fa fa-angle-right"></i></a>
           
         </li>
         
